@@ -22,7 +22,7 @@ body {
 	position: relative;
 	background-image: url("images/barrel.png");
 	background-repeat: no-repeat;
-	background-position: 50% 85%;
+	background-position: 50% 80%;
 	background-color: darkmagenta;
 	border-radius: 20px;
 	box-shadow: 6px 6px 25px 0px rgba(0,0,0,0.50);
