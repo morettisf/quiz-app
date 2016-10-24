@@ -1,0 +1,123 @@
+html {
+	height: 100vh;
+	min-width: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: antiquewhite;
+	font-family: helvetica;
+	color: white;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+#quiz-container {
+	border: solid 1px black;
+	margin: auto;
+	width: 70%;
+	height: 100vh;
+	position: relative;
+	background-image: url("images/barrel.png");
+	background-repeat: no-repeat;
+	background-position: 50% 85%;
+	background-color: darkmagenta;
+	border-radius: 20px;
+	box-shadow: 6px 6px 25px 0px rgba(0,0,0,0.50);
+}
+
+h1 {
+	margin: 50px auto;
+	padding: 0;
+	text-align: center;
+}
+
+h2 {
+	margin: 1em auto;
+	padding: 0;
+	text-align: center;
+}
+
+#endScore {
+	margin: 1em auto;
+	padding: 0;
+	text-align: center;
+}
+
+#content {
+	overflow: hidden;
+	padding: 0 5%;
+}
+
+ul {
+	margin-left: 20%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="radio"] {
+	margin-top: -1px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#start-quiz-btn {
+	margin: 150px auto;
+	display: block;
+	padding: 15px 20px 15px 20px;
+	border-radius: 5px;
+	font-size: 1.5em;
+	background-color: #f2f2f2;
+}
+
+#start-quiz-btn:hover {
+
+}
+
+#quiz-btn {
+	margin: 0 0 5px 23%;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	font-size: .75em;
+	background-color: #f2f2f2;
+}
+
+#next-btn {
+	margin: 0 0 5px 23%;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	font-size: .75em;
+	background-color: #f2f2f2;
+}
+
+ #correct-incorrect {
+	margin: 15px 0 5px 23%;
+} 
+
+
+#answer {
+	font-weight: lighter;
+}
+
+#indicators {
+	clear: both;
+	margin-right: 1em;
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+	text-align: right;
+}
+
+.hide {
+	display: none !important;
+}

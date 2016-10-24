@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="main.css" rel="stylesheet">
+	<title>Winemaking Quiz</title>
+
+</head>
+<body>
+	<div id="quiz-container">
+		<h1>Winemaking Quiz</h1>
+		<div id="content" class="hide">
+			<h2>Question</h2>
+			<ul>
+				<li id="a1"><input type="radio" name="a1" value="0"><label for="a1">Option 1</label></li>
+				<li id="a2"><input type="radio" name="a1" value="1"><label for="a2">Option 2</label></li>
+				<li id="a3"><input type="radio" name="a1" value="2"><label for="a3">Option 3</label></li>
+				<li id="a4"><input type="radio" name="a1" value="3"><label for="a4">Option 4</label></li>
+			</ul>
+		</div>
+		<div id="endScore"></div>
+		<button type="submit" id="start-quiz-btn">Start Quiz</button>
+		<button type="submit" id="quiz-btn" class="hide">Submit</button>
+		<button type="submit" id="next-btn" class="hide">Next</button>
+		<div id="correct-incorrect"></div>
+		<div id="selectAnswer"></div>
+		<div id="indicators" class="hide">
+			<div id="score"></div>
+			<div id="progress">Question: <span id="qNum"></span></div>
+		</div>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
