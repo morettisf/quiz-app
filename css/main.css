@@ -20,7 +20,7 @@ body {
 	width: 70%;
 	height: 100vh;
 	position: relative;
-	background-image: url("images/barrel.png");
+	background-image: url("../images/barrel.png");
 	background-repeat: no-repeat;
 	background-position: 50% 80%;
 	background-color: darkmagenta;
